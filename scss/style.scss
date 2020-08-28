@@ -1418,6 +1418,7 @@ textarea:focus {
     position: relative;
     z-index: 1;
     .footer-widget {
+        padding: 0 15px;
         .widget-title {
             margin-bottom: 45px;
             h6 {
@@ -1436,18 +1437,18 @@ textarea:focus {
         .footer-social-info {
             margin-top: 55px;
             display: block;
-            margin-bottom: 280px;
+            margin-bottom: 120px;
             @media #{$breakpoint-xs} {
-                margin-bottom: 50px;
+                margin-bottom: 0;
             }
             @media #{$breakpoint-sm} {
-                margin-bottom: 280px;
+                margin-bottom: 120px;
             }
             a {
                 display: inline-block;
                 color: $hover-color;
                 margin-right: 25px;
-                font-size: 15px;
+                font-size: 18px;
                 &:hover,
                 &:focus {
                     color: $white-color;
