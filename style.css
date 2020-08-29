@@ -894,14 +894,6 @@ textarea:focus {
   color: #ac8a74;
 }
 
-@media only screen and (max-width: 767px) {
-  .hero-slides:hover .owl-prev,
-  .hero-slides:hover .owl-next {
-    opacity: 1;
-    visibility: visible;
-  }
-}
-
 /* :: 7.0 Call to Action CSS */
 .faith-cta-area {
   position: relative;

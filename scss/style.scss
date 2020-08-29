@@ -777,15 +777,6 @@ textarea:focus {
             }
         }
     }
-    &:hover {
-        @media #{$breakpoint-xs} {
-            .owl-prev,
-            .owl-next {
-                display: block;
-                visibility: visible;
-            }
-        }
-    }
 }
 
 /* :: 7.0 Call to Action CSS */
