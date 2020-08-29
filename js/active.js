@@ -52,7 +52,7 @@
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
             dots: true,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 7000,
             smartSpeed: 800
         });
 

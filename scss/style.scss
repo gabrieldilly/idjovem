@@ -781,7 +781,7 @@ textarea:focus {
         @media #{$breakpoint-xs} {
             .owl-prev,
             .owl-next {
-                opacity: 1;
+                display: block;
                 visibility: visible;
             }
         }
