@@ -441,6 +441,10 @@ textarea:focus {
   color: #ffffff;
 }
 
+.faith-btn.regulat-text {
+  text-transform: none;
+}
+
 /* :: 4.0 Search Wrapper Area CSS */
 .search-wrapper {
   position: fixed;
