@@ -1428,10 +1428,22 @@ textarea:focus {
 
 .single-donate-slide .donate-content {
   position: absolute;
-  top: 70px;
+  top: 30px;
   width: 100%;
   text-align: center;
   z-index: 10;
+}
+
+@media only screen and (max-width: 767px) {
+  .single-donate-slide .donate-content {
+    top: 70px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-donate-slide .donate-content {
+    top: 30px;
+  }
 }
 
 .single-donate-slide .donate-content h4 {
@@ -1446,9 +1458,21 @@ textarea:focus {
 
 .single-donate-slide .donate-btn {
   position: absolute;
-  bottom: 45px;
+  bottom: 25px;
   width: 100%;
   z-index: 30;
+}
+
+@media only screen and (max-width: 767px) {
+  .single-donate-slide .donate-btn {
+    bottom: 45px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .single-donate-slide .donate-btn {
+    bottom: 25px;
+  }
 }
 
 .single-donate-slide .donate-btn .faith-btn {
