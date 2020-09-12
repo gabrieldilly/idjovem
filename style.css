@@ -1428,7 +1428,7 @@ textarea:focus {
 
 .single-donate-slide .donate-content {
   position: absolute;
-  top: 30px;
+  top: 25px;
   width: 100%;
   text-align: center;
   z-index: 10;
@@ -1442,7 +1442,7 @@ textarea:focus {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .single-donate-slide .donate-content {
-    top: 30px;
+    top: 25px;
   }
 }
 
@@ -1458,7 +1458,7 @@ textarea:focus {
 
 .single-donate-slide .donate-btn {
   position: absolute;
-  bottom: 25px;
+  bottom: 20px;
   width: 100%;
   z-index: 30;
 }
@@ -1471,7 +1471,7 @@ textarea:focus {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .single-donate-slide .donate-btn {
-    bottom: 25px;
+    bottom: 20px;
   }
 }
 

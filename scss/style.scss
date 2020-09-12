@@ -1199,12 +1199,12 @@ textarea:focus {
     }
     .donate-content {
         position: absolute;
-        top: 30px;
+        top: 25px;
         @media #{$breakpoint-xs} {
             top: 70px;
         }        
         @media #{$breakpoint-sm} {
-            top: 30px;
+            top: 25px;
         }             
         width: 100%;
         text-align: center;
@@ -1220,12 +1220,12 @@ textarea:focus {
     }
     .donate-btn {
         position: absolute;
-        bottom: 25px;
+        bottom: 20px;
         @media #{$breakpoint-xs} {
             bottom: 45px;
         }        
         @media #{$breakpoint-sm} {
-            bottom: 25px;
+            bottom: 20px;
         }        
         width: 100%;
         z-index: 30;
