@@ -984,6 +984,7 @@ textarea:focus {
             h6 {
                 @include trans-duration(500ms);
                 font-size: 16px;
+                text-transform: capitalize;
                 &:hover,
                 &:focus {
                     color: $hover-color;

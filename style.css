@@ -1161,6 +1161,7 @@ textarea:focus {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   font-size: 16px;
+  text-transform: capitalize;
 }
 
 .single-sermons .sermons-content .sermons-text h6:hover, .single-sermons .sermons-content .sermons-text h6:focus {
