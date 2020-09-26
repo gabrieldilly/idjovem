@@ -1,3 +1,4 @@
+// npm run compile-styles
 @import 'theme_color';
 @import 'variables';
 @import 'mixin';
@@ -984,7 +985,7 @@ textarea:focus {
             h6 {
                 @include trans-duration(500ms);
                 font-size: 16px;
-                text-transform: capitalize;
+                text-transform: uppercase;
                 &:hover,
                 &:focus {
                     color: $hover-color;
